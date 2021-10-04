@@ -4,8 +4,8 @@ namespace RoleplayGame
 {
     public interface IPersonaje
     {
-        int GetAttack();
+         int GetAttack();
 
-        void ReceiveAttack(IPersonaje personaje);
+         void ReceiveAttack(IPersonaje personaje);
     }
 }
